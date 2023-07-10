@@ -1,0 +1,34 @@
+{
+    "AS_Image_hb58d928b6854b9da4f90fcc5ab136e5": {
+        "id": "AS_Image_hb58d928b6854b9da4f90fcc5ab136e5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___f2e030c57ef7455980ed67c913127737",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "COMPONENT",
+            "itemId": "userwidgetmodel",
+            "widgetId": "flxError",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "u51f51cda6ad4635ac33a227acd33f13",
+            "widgetKUID": "uc3e78c3f1764116996edc8197f03514",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.flxError"
+        }]
+    }
+}
